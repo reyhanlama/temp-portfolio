@@ -11,6 +11,23 @@ ul {
   margin: 0;
   padding: 0;
 }
+li {
+  padding-left: 2em;
+}
+
+.no-show {
+  display: none;
+  padding-top: 00.5em;
+}
+
+.button {
+  background-color: #ff64cb;
+  border-radius: 0.5em;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
 
 a {
   text-decoration: none;
@@ -36,6 +53,7 @@ header {
   .logo {
     color: #00f7ff;
     font-weight: bold;
+    padding-top: 00.5em;
   }
   ul {
     display: flex;
@@ -53,6 +71,7 @@ header {
 
 .social-header {
   display: none;
+  padding-top: 0.5em;
 }
 .hero-design {
   display: none;
@@ -185,6 +204,9 @@ section {
   .portfolio-container {
     display: grid;
     grid-template-columns: 40% auto;
+  }
+  .no-show {
+    display: block;
   }
 
   .left,
